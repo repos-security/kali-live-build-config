@@ -32,18 +32,18 @@ guymager
 
 #if ARCHITECTURES i386 amd64
 # *** GNOME DESKTOP ***
-gnome-core
-gnome-brave-icon-theme
-gnome-shell-extensions
-nautilus-open-terminal
-gnome-orca
+#gnome-core
+#gnome-brave-icon-theme
+#gnome-shell-extensions
+#nautilus-open-terminal
+#gnome-orca
 #endif
 
 #if ARCHITECTURES armel armhf
 # *** XFCE DESKTOP ***
-xfce4
-network-manager-gnome
-network-manager
+#xfce4
+#network-manager-gnome
+#network-manager
 #endif
 
 # *** KDE DESKTOP ***
@@ -64,3 +64,9 @@ network-manager
 # mate-archive-keyring
 # mate-core
 # mate-desktop-environment
+#
+# cheers to 0xerror
+xorg
+dmenu
+conky
+i3
